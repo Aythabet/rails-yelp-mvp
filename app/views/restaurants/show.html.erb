@@ -14,4 +14,17 @@
   <div id="back-btn">
     <%= link_to 'Edit', edit_restaurant_path(@restaurant), class: 'btn btn-primary' %>
   </div>
+  <div id="back-btn">
+    <%= link_to 'Add a Review', new_restaurant_review_path(@restaurant), class: 'btn btn-primary' %>
+  </div>
+  <ul>
+    <br>
+    <br>
+    <br>
+    <% @restaurant.reviews.each do |review| %>
+      <p>Review by: Jack Mentali</p>
+      <li><%= review.content %> | Rated by user: <%= review.rating %> /5</li>
+    <% end %>
+  </ul>
 </div>
+
