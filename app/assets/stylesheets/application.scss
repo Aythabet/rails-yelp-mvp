@@ -13,3 +13,26 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+.navbar-lewagon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 16px 24px;
+}
+
+.navbar .brand {
+  width: 75px;
+  margin: 10px;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+#back-btn{
+  padding-top: 25px;
+  text-align: center;
+}

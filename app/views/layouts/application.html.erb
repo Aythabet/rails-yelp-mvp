@@ -8,11 +8,17 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <div class="navbar">
+      <a href="http://localhost:3000/restaurants">
+        <img src="https://img.pngio.com/restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle-restaurant-png-338_338.jpg" class="brand">
+      </a>
+    </div>
+
     <%= yield %>
   </body>
 </html>

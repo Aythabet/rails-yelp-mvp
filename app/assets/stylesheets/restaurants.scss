@@ -1,0 +1,37 @@
+// Place all the styles related to the restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-lewagon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 16px 24px;
+}
+
+.navbar .brand {
+  width: 40px;
+}
+
+.navbar .navbar-lewagon-actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-actions .navbar-link {
+  margin-left: 24px;
+  color: #999999;
+}
+.navbar .navbar-actions .navbar-link:hover {
+  color: #151515;
+}
+
+
+.navbar .navbar-actions .avatar {
+  margin-left: 24px;
+}
+
+.navbar .dropdown-toggle {
+  cursor: pointer;
+}
