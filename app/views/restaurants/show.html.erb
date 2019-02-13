@@ -23,7 +23,7 @@
     <br>
     <% @restaurant.reviews.each do |review| %>
       <p>Review by: Jack Mentali</p>
-      <li><%= review.content %> | Rated by user: <%= review.rating %> /5</li>
+      <p><%= review.content %> | Rated by user: <%= review.rating %> /5<p>
     <% end %>
   </ul>
 </div>
